@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(255, 230, 230);
+    color:rgb(119, 150, 115);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+h1{
+    margin:0;
+    margin-bottom: 10px;
+}
+
